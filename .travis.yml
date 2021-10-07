@@ -4,7 +4,7 @@ arch: ppc64le
 sudo: required
 language: go
 
-go: "1.16.x"
+go: "1.x.x"
 
 install:
   - sudo printf "deb https://oplab9.parqtec.unicamp.br/pub/repository/debian/ ./" >> /etc/apt/sources.list
@@ -13,7 +13,6 @@ install:
   - sudo apt update
   - sudo apt-get install -y make git gcc build-essential libc6-dev libglib2.0-dev pkg-config make runc libseccomp-dev
   - sudo apt install -y python3 rpm lftp
-  - printf "set ssl:verify-certificate false" >> ~/.lftprc
   - printf "set ssl:verify-certificate false" >> ~/.lftprc
 
 script:
