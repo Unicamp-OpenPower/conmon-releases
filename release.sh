@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 github_version=$(cat github_version.txt)
-github_version_2=$(cat github_version2.txt)
 ftp_version=$(cat ftp_version.txt)
 ROOTPATH="~/rpmbuild/RPMS/ppc64le"
 LOCALPATH="../conmon/bin"
