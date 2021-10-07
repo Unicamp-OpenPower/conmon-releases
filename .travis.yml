@@ -4,7 +4,7 @@ arch: ppc64le
 sudo: required
 language: go
 
-go: "1.x.x"
+go: "1.17.x"
 
 install:
   - sudo printf "deb https://oplab9.parqtec.unicamp.br/pub/repository/debian/ ./" >> /etc/apt/sources.list
