@@ -7,9 +7,9 @@ language: go
 go: "1.17.x"
 
 install:
-  - sudo printf "deb https://oplab9.parqtec.unicamp.br/pub/repository/debian/ ./" >> /etc/apt/sources.list
-  - wget https://oplab9.parqtec.unicamp.br/pub/key/openpower-gpgkey-public.asc
-  - sudo apt-key add openpower-gpgkey-public.asc
+  #- sudo printf "deb https://oplab9.parqtec.unicamp.br/pub/repository/debian/ ./" >> /etc/apt/sources.list
+  #- wget https://oplab9.parqtec.unicamp.br/pub/key/openpower-gpgkey-public.asc
+  #- sudo apt-key add openpower-gpgkey-public.asc
   - sudo apt update
   - sudo apt-get install -y make git gcc build-essential libc6-dev libglib2.0-dev pkg-config make runc libseccomp-dev
   - sudo apt install -y python3 rpm lftp
