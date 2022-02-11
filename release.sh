@@ -3,8 +3,8 @@ github_version=$(cat github_version.txt)
 ftp_version=$(cat ftp_version.txt)
 ROOTPATH="~/rpmbuild/RPMS/ppc64le"
 LOCALPATH="../conmon/bin"
-REPO1="/repository/debian/ppc64el/containers"
-REPO2="/repository/rpm/ppc64le/containers"
+REPO1="/repository/debian/ppc64el/containers/"
+REPO2="/repository/rpm/ppc64le/containers/"
 
 if [ "$github_version" != "$ftp_version" ]
   then
