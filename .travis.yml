@@ -17,5 +17,6 @@ install:
 
 script:
   - python3 ftp_version.py
+  - python3 validation.py
   - bash build.sh
   - bash release.sh
